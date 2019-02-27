@@ -80,6 +80,9 @@ jQuery( document ).ready(function( $ ) {
 		}
 
 		$progressBar.attr( 'data-pct', val );
+		$progressBar.attr( 'aria-valuenow', val );
+
+		$( '.health-check-body' ).attr( 'aria-busy', false );
 
 		$.post(
 			ajaxurl,
