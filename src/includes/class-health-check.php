@@ -456,7 +456,7 @@ class Health_Check {
 			<div class="wp-clearfix"></div>
 		</div>
 
-		<div class="wrap health-check-body" aria-busy="true">
+		<div class="wrap health-check-body" aria-hidden="true">
 
 			<?php
 			switch ( $current_tab ) {
